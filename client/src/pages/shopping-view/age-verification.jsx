@@ -26,8 +26,16 @@ const AgeVerification = () => {
   };
 
   return (
-    <div className="age-verification-background">
-      <div className="verification-content border-4 border-blue-500 p-6 rounded-md"> {/* Added border styles here */}
+    <div className="age-verification-background flex flex-col items-center">
+      {/* Logo at the top with increased size */}
+      <img 
+        src="https://res.cloudinary.com/daynaexaz/image/upload/v1728726708/Pitstop_Paradise_logo_1_optimized_1000_ko3i9s.png" 
+        alt="Pitstop Paradise Logo" 
+        className="mb-4 w-48" 
+      />
+
+      {/* Verification Box */}
+      <div className="verification-content border-4 border-blue-500 p-6 rounded-md">
         <h1 className="text-2xl font-semibold mb-4">Verify Age</h1>
         <p className="text-lg mb-6">
           You must be at least 18 years old to shop.

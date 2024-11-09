@@ -24,7 +24,16 @@ function Terms() {
     };
 
     return (
-        <div>
+        <div 
+        className="flex flex-col min-h-screen" 
+        style={{
+          backgroundImage: `url('https://res.cloudinary.com/daynaexaz/image/upload/v1728893288/blue-smokebg_cegir0.jpg')`,
+          backgroundSize: 'cover', 
+          backgroundPosition: 'center', 
+          backgroundRepeat: 'no-repeat', 
+          backgroundAttachment: 'fixed', 
+        }}
+      >
             <ShoppingHeader />
             <div className="flex flex-col items-center justify-start min-h-screen mt-20">
                 <div className="bg-white shadow-md rounded-lg p-6 w-full max-w-3xl">
@@ -39,8 +48,8 @@ function Terms() {
                 </div>
 
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">SECTION 1 - ONLINE STORE TERMS</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">SECTION 1 - ONLINE STORE TERMS</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                     ​By agreeing to these Terms of Service, you represent that you are at least the age of majority in your state or province of residence, or that you are the age of majority in your state or province of residence and you have given us your consent to allow any of your minor dependents to use this site.  
                     You may not use our products for any illegal or unauthorized purpose, nor may you, in the use of the Service, violate any laws in your jurisdiction (including but not limited to copyright laws).  
                     You must not transmit any worms or viruses or any code of a destructive nature.  
@@ -59,8 +68,8 @@ function Terms() {
                 </div>
 
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">SECTION 3 - ACCURACY, COMPLETENESS, AND TIMELINESS OF INFORMATION</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">SECTION 3 - ACCURACY, COMPLETENESS, AND TIMELINESS OF INFORMATION</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                     ​We are not responsible if information made available on this site is not accurate, complete or current. The material on this site is provided for general information only and should not be relied upon or used as the sole basis for making decisions without consulting primary, more accurate, more complete or more timely sources of information. Any reliance on the material on this site is at your own risk.
                     This site may contain certain historical information. Historical information, necessarily, is not current and is provided for your reference only. We reserve the right to modify the contents of this site at any time, but we have no obligation to update any information on our site. You agree that it is your responsibility to monitor changes to our site.
                     </p>
@@ -76,8 +85,8 @@ function Terms() {
                 </div>
 
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">SECTION 4 - MODIFICATIONS TO THE SERVICE AND PRICES</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">SECTION 4 - MODIFICATIONS TO THE SERVICE AND PRICES</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                     Prices for our products are subject to change without notice.
                     We reserve the right at any time to modify or discontinue the Service (or any part or content thereof) without notice at any time.
                     We shall not be liable to you or to any third-party for any modification, price change, suspension or discontinuance of the Service.
@@ -95,8 +104,8 @@ function Terms() {
                 </div>
 
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">SECTION 6 - ACCURACY OF BILLING AND ACCOUNT INFORMATION</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">SECTION 6 - ACCURACY OF BILLING AND ACCOUNT INFORMATION</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                     We reserve the right to refuse any order you place with us. We may, in our sole discretion, limit or cancel quantities purchased per person, per household or per order. These restrictions may include orders placed by or under the same customer account, the same credit card, and/or orders that use the same billing and/or shipping address. In the event that we make a change to or cancel an order, we may attempt to notify you by contacting the e‑mail and/or billing address/phone number provided at the time the order was made. We reserve the right to limit or prohibit orders that, in our sole judgment, appear to be placed by dealers, resellers or distributors.
                     You agree to provide current, complete and accurate purchase and account information for all purchases made at our store. You agree to promptly update your account and other information, including your email address and credit card numbers and expiration dates, so that we can complete your transactions and contact you as needed.
                     ​For more detail, please review our Returns Policy.
@@ -114,8 +123,8 @@ function Terms() {
                 </div>
 
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">​​​SECTION 8 - THIRD-PARTY LINKS</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">​​​SECTION 8 - THIRD-PARTY LINKS</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                     ​Certain content, products and services available via our Service may include materials from third-parties.
                    Third-party links on this site may direct you to third-party websites that are not affiliated with us. We are not responsible for examining or evaluating the content or accuracy and we do not warrant and will not have any liability or responsibility for any third-party materials or websites, or for any other materials, products, or services of third-parties.
                    We are not liable for any harm or damages related to the purchase or use of goods, services, resources, content, or any other transactions made in connection with any third-party websites. Please review carefully the third-party's policies and practices and make sure you understand them before you engage in any transaction. Complaints, claims, concerns, or questions regarding third-party products should be directed to the third-party.
@@ -133,8 +142,8 @@ function Terms() {
                 </div>
 
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">​​SECTION 10 - PERSONAL INFORMATION</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">​​SECTION 10 - PERSONAL INFORMATION</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                     Your submission of personal information through the store is governed by our Privacy Policy. To view our Privacy Policy, visit [insert link to Privacy Policy here].
                     </p>
                 </div>
@@ -147,8 +156,8 @@ function Terms() {
                     </p>
                 </div>
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">​​​SECTION 12 - PROHIBITED USES</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">​​​SECTION 12 - PROHIBITED USES</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                     ​In addition to other prohibitions as set forth in the Terms of Service, you are prohibited from using the site or its content: (a) for any unlawful purpose; (b) to solicit others to perform or participate in any unlawful acts; (c) to violate any international, federal, provincial, or state regulations, rules, laws, or local ordinances; (d) to infringe upon or violate our intellectual property rights or the intellectual property rights of others; (e) to harass, abuse, insult, harm, defame, slander, disparage, intimidate, or discriminate based on gender, sexual orientation, religion, ethnicity, race, age, national origin, or disability; (f) to submit false or misleading information; (g) to upload or transmit viruses or any other type of malicious code that will or may be used in any way that will affect the functionality or operation of the Service or of any related website, other websites, or the Internet; (h) to collect or track the personal information of others; (i) to spam, phish, pharm, pretext, spider, crawl, or scrape; (j) for any obscene or immoral purpose; or (k) to interfere with or circumvent the security features of the Service or any related website, other websites, or the Internet. We reserve the right to terminate your use of the Service or any related website for violating any of the prohibited uses.
 
 
@@ -166,8 +175,8 @@ function Terms() {
                     </p>
                 </div>
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">​​SECTION 14 - INDEMNIFICATION</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">​​SECTION 14 - INDEMNIFICATION</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                     ​​You agree to indemnify, defend, and hold harmless Pitstop Paradise and our parent, subsidiaries, affiliates, partners, officers, directors, agents, contractors, licensors, service providers, subcontractors, suppliers, interns, and employees, harmless from any claim or demand, including reasonable attorneys' fees, made by any third party due to or arising out of your breach of these Terms of Service or the documents they incorporate by reference or your violation of any law or the rights of a third party.
                   </p>
                 </div>
@@ -178,8 +187,8 @@ function Terms() {
                      </p>
                 </div>
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">​SECTION 16 - TERMINATION</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">​SECTION 16 - TERMINATION</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                     ​The obligations and liabilities of the parties incurred prior to the termination date shall survive the termination of this agreement for all purposes.  
                     These Terms of Service are effective unless and until terminated by either you or us. You may terminate these Terms of Service at any time by notifying us that you no longer wish to use our Services or when you cease using our site.  
                     If in our sole judgment you fail, or we suspect that you have failed, to comply with any term or provision of these Terms of Service, we also may terminate this agreement at any time without notice, and you will remain liable for all amounts due up to and including the date of termination; and/or accordingly may deny you access to our Services (or any part thereof).
@@ -194,8 +203,8 @@ function Terms() {
                      </p>
                 </div>
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">​SECTION 18 - GOVERNING LAW</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">​SECTION 18 - GOVERNING LAW</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                     These Terms of Service and any separate agreements whereby we provide you Services shall be governed by and construed in accordance with the laws of Pretoria, Gauteng, South Africa
                   </p>
                 </div>
@@ -207,8 +216,8 @@ function Terms() {
                      </p>
                 </div>
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">​SECTION 18 - GOVERNING LAW</h1>
-                    <p className="mt-4 text-left pl-4">
+                   
+                    <p className="mt-4 text-left pl-4 text-white">
                     Questions about the Terms of Service should be sent to us at pitstopparadisesales@gmail.com
                   </p>
                 </div>

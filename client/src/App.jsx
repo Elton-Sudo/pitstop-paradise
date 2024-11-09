@@ -98,6 +98,7 @@ function App() {
           <Route path="shipping-policy" element={<ShppingPolicy />} />
           <Route path="payment-policy" element={<PaymentPolicy />} />
           <Route path="terms" element={<Terms />} />
+          <Route path="policies" element={<Policies />} />
 
           {/* Authenticated Routes (Requires CheckAuth) */}
           <Route

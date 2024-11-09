@@ -24,7 +24,16 @@ function ShppingPolicy() {
     };
 
     return (
-        <div>
+        <div 
+        className="flex flex-col min-h-screen" 
+        style={{
+          backgroundImage: `url('https://res.cloudinary.com/daynaexaz/image/upload/v1728893288/blue-smokebg_cegir0.jpg')`,
+          backgroundSize: 'cover', 
+          backgroundPosition: 'center', 
+          backgroundRepeat: 'no-repeat', 
+          backgroundAttachment: 'fixed', 
+        }}
+      >
             <ShoppingHeader />
             <div className="flex flex-col items-center justify-start min-h-screen mt-20">
                 <div className="bg-white shadow-md rounded-lg p-6 w-full max-w-3xl">
@@ -35,8 +44,8 @@ function ShppingPolicy() {
                 </div>
 
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">Delivery Time Estimates</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">Delivery Time Estimates</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                     Our shipping policy is designed to make your shopping experience as smooth and hassle-free as possible. We offer a flat shipping rate of R200 and free shipping on orders over R1000. All orders are processed and shipped promptly to ensure you receive your car parts or vape supplies as quickly as possible.
                     </p>
                 </div>
@@ -51,8 +60,8 @@ function ShppingPolicy() {
                 </div>
 
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">International Delivery</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">International Delivery</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                     We currently only deliver within South Africa.
                     </p>
                 </div>

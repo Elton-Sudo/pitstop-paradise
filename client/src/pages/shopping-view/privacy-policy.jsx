@@ -24,7 +24,16 @@ function PrivacyPolicy() {
     };
 
     return (
-        <div>
+        <div 
+        className="flex flex-col min-h-screen" 
+        style={{
+          backgroundImage: `url('https://res.cloudinary.com/daynaexaz/image/upload/v1728893288/blue-smokebg_cegir0.jpg')`,
+          backgroundSize: 'cover', 
+          backgroundPosition: 'center', 
+          backgroundRepeat: 'no-repeat', 
+          backgroundAttachment: 'fixed', 
+        }}
+      >
             <ShoppingHeader />
             <div className="flex flex-col items-center justify-start min-h-screen mt-20">
                 <div className="bg-white shadow-md rounded-lg p-6 w-full max-w-3xl">
@@ -36,8 +45,8 @@ function PrivacyPolicy() {
                 </div>
 
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">Personal Information We Collect</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">Personal Information We Collect</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                         When you visit the Site, we automatically gather certain details about your device,
                         such as your web browser, IP address, time zone, and some of the cookies installed on your device.
                         As you navigate the Site, we also collect information about the specific web pages
@@ -60,8 +69,8 @@ function PrivacyPolicy() {
                 </div>
 
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">How Do We Use Your Personal Information</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">How Do We Use Your Personal Information</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                         We use the Order Information that we collect generally to fulfill any orders placed through the Site (including processing your payment information, arranging for shipping, and providing you with invoices and/or order confirmations). Additionally, we use this Order Information to:
 
                         Communicate with you;
@@ -81,8 +90,8 @@ function PrivacyPolicy() {
                 </div>
 
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">Behavioral Advertising</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">Behavioral Advertising</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                         As described above, we use your Personal Information to provide you with targeted advertisements or marketing communications that we believe may be of interest to you. For more information about how targeted advertising works, you can visit the Network Advertising Initiative’s (“NAI”) educational page at http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work.
 
                         You can opt out of targeted advertising by using the links below:
@@ -102,8 +111,8 @@ function PrivacyPolicy() {
                 </div>
 
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">Your Rights</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">Your Rights</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                         If you are a European resident, you have the right to access personal information we hold about you and to request that your personal information be corrected, updated, or deleted. If you would like to exercise this right, please contact us using the contact information provided below.
 
                         Additionally, if you are a European resident, we note that we are processing your information to fulfill contracts we might have with you (for instance, if you place an order through the Site), or otherwise to pursue our legitimate business interests as outlined above. Additionally, please note that your information will be transferred outside of Europe, including to Canada and the United States.
@@ -118,8 +127,8 @@ function PrivacyPolicy() {
                 </div>
 
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">​​Changes</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">​​Changes</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                         ​We may update this privacy policy from time to time to reflect, for example, changes to our practices or for other operational, legal, or regulatory reasons.
                     </p>
                 </div>
@@ -132,8 +141,8 @@ function PrivacyPolicy() {
                 </div>
 
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">​​Contact Us</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">​​Contact Us</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                         For more information about our privacy practices, if you have any questions, or if you would like to make a complaint, please contact us by email at pitstopparadisesales@gmail.com or by mail using the details provided below:
                     </p>
                 </div>

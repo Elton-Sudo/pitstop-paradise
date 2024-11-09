@@ -24,7 +24,16 @@ function PaymentPolicy() {
     };
 
     return (
-        <div>
+        <div 
+        className="flex flex-col min-h-screen" 
+        style={{
+          backgroundImage: `url('https://res.cloudinary.com/daynaexaz/image/upload/v1728893288/blue-smokebg_cegir0.jpg')`,
+          backgroundSize: 'cover', 
+          backgroundPosition: 'center', 
+          backgroundRepeat: 'no-repeat', 
+          backgroundAttachment: 'fixed', 
+        }}
+      >
             <ShoppingHeader />
             <div className="flex flex-col items-center justify-start min-h-screen mt-20">
                 <div className="bg-white shadow-md rounded-lg p-6 w-full max-w-3xl">
@@ -35,8 +44,8 @@ function PaymentPolicy() {
                 </div>
 
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">iKhokha Payments</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">iKhokha Payments</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                     iKhokha supports the following payment options:
 
                     Visa and MasterCard: We accept both debit and credit cards from Visa and MasterCard for your convenience.

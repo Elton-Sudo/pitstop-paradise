@@ -24,7 +24,16 @@ function RefundPolicy() {
     };
 
     return (
-        <div>
+        <div 
+        className="flex flex-col min-h-screen" 
+        style={{
+          backgroundImage: `url('https://res.cloudinary.com/daynaexaz/image/upload/v1728893288/blue-smokebg_cegir0.jpg')`,
+          backgroundSize: 'cover', 
+          backgroundPosition: 'center', 
+          backgroundRepeat: 'no-repeat', 
+          backgroundAttachment: 'fixed', 
+        }}
+      >
             <ShoppingHeader />
             <div className="flex flex-col items-center justify-start min-h-screen mt-20">
                 <div className="bg-white shadow-md rounded-lg p-6 w-full max-w-3xl">
@@ -35,36 +44,36 @@ function RefundPolicy() {
                 </div>
 
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">Eligibility for Returns</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">Eligibility for Returns</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                     ​To be eligible for a return, your item must be in the same condition that you received it—unworn or unused, with tags, and in its original packaging. We only accept returns on orders placed with Pitstop Paradise.
                     </p>
                 </div>
 
                 <div className="bg-white shadow-md rounded-lg p-6 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold">​How to Submit a Return Request</h1>
+                    <h1 className="text-4xl font-bold ">​How to Submit a Return Request</h1>
                     <p className="mt-4">
                     ​You can submit a refund request by visiting your customer account and selecting the order and items you'd like to return for a refund.
                     </p>
                 </div>
 
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">​1-Month Warranty on Select Devices</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">​1-Month Warranty on Select Devices</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                     ​We offer a 1-month warranty period on select devices. If your device is defective within that time frame, you can request a return and refund free of charge.
                     </p>
                 </div>
 
                 <div className="bg-white shadow-md rounded-lg p-6 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold">3-Day "Changed My Mind" Policy</h1>
+                    <h1 className="text-4xl font-bold ">3-Day "Changed My Mind" Policy</h1>
                     <p className="mt-4">
                     ​We have a 3-day "Changed My Mind" return policy, which means you have 3 days after receiving your item to request a return if you've changed your mind. The item must be in its original condition and packaging. Please note that the customer is responsible for 100% of the return delivery fees, ranging from R100-R130, depending on the collection location.
                     </p>
                 </div>
 
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">Return Process</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">Return Process</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                     If your return is accepted, we’ll provide you with a return shipping label and instructions on how to package the return. Our courier partner will collect the return within 1-2 days. Items sent back without first requesting a return will not be accepted.
 
 For any questions regarding returns, please contact us at pitstopparadise@gmail.com.
@@ -79,8 +88,8 @@ For any questions regarding returns, please contact us at pitstopparadise@gmail.
                 </div>
 
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">​Damages and Issues</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">​Damages and Issues</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                     ​Please inspect your order upon receipt and contact us immediately if the item is defective, damaged, or if you receive the wrong item, so we can evaluate the issue and make it right.
                     </p>
                 </div>
@@ -93,8 +102,8 @@ For any questions regarding returns, please contact us at pitstopparadise@gmail.
                 </div>
 
                 <div className="mt-8 w-full max-w-3xl">
-                    <h1 className="text-4xl font-bold text-left pl-4">​​Getting a Refund</h1>
-                    <p className="mt-4 text-left pl-4">
+                    <h1 className="text-4xl font-bold text-left pl-4 text-white">​​Getting a Refund</h1>
+                    <p className="mt-4 text-left pl-4 text-white">
                     Certain types of items cannot be returned, such as perishable goods and custom products. We also do not accept returns for hazardous materials, flammable liquids, or gases. If you have any questions or concerns about your specific item, please get in touch.
 
 Unfortunately, we cannot accept returns on sale items or gift cards.
